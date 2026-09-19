@@ -12,6 +12,66 @@ import { viewportBias, placesNearViewRecovery } from './annotations/annotationRe
  *   buildingHeight — estimated height of landmark center above ground (meters)
  */
 export const CITY_POIS = {
+  delhi: {
+    name: 'New Delhi',
+    groundElevation: 216,
+    viewBounds: { southwest: { lat: 28.40, lng: 76.84 }, northeast: { lat: 28.88, lng: 77.35 } },
+    pois: [
+      { name: 'India Gate', lat: 28.6129, lon: 77.2295, alt: 650, pitch: -26, heading: 20, buildingHeight: 25 },
+      { name: 'Rashtrapati Bhavan', lat: 28.6143, lon: 77.1995, alt: 750, pitch: -25, heading: 95, buildingHeight: 35 },
+      { name: 'Red Fort', lat: 28.6562, lon: 77.2410, alt: 700, pitch: -30, heading: 190, buildingHeight: 30 },
+      { name: 'Qutub Minar', lat: 28.5245, lon: 77.1855, alt: 500, pitch: -22, heading: 15, buildingHeight: 75 },
+      { name: 'Akshardham', lat: 28.6127, lon: 77.2773, alt: 750, pitch: -28, heading: 245, buildingHeight: 35 },
+    ],
+  },
+  mumbai: {
+    name: 'Mumbai',
+    groundElevation: 14,
+    viewBounds: { southwest: { lat: 18.85, lng: 72.75 }, northeast: { lat: 19.32, lng: 73.10 } },
+    pois: [
+      { name: 'Gateway of India', lat: 18.9220, lon: 72.8347, alt: 550, pitch: -25, heading: 290, buildingHeight: 25 },
+      { name: 'Chhatrapati Shivaji Maharaj Terminus', lat: 18.9398, lon: 72.8355, alt: 550, pitch: -24, heading: 120, buildingHeight: 35 },
+      { name: 'Bandra-Worli Sea Link', lat: 19.0315, lon: 72.8168, alt: 1050, pitch: -24, heading: 15, buildingHeight: 35 },
+      { name: 'Siddhivinayak Temple', lat: 19.0176, lon: 72.8306, alt: 450, pitch: -28, heading: 85, buildingHeight: 20 },
+      { name: 'Haji Ali Dargah', lat: 18.9827, lon: 72.8089, alt: 600, pitch: -30, heading: 55, buildingHeight: 20 },
+    ],
+  },
+  bengaluru: {
+    name: 'Bengaluru',
+    groundElevation: 920,
+    viewBounds: { southwest: { lat: 12.77, lng: 77.42 }, northeast: { lat: 13.16, lng: 77.78 } },
+    pois: [
+      { name: 'Vidhana Soudha', lat: 12.9796, lon: 77.5906, alt: 600, pitch: -25, heading: 145, buildingHeight: 35 },
+      { name: 'Bengaluru Palace', lat: 12.9987, lon: 77.5920, alt: 550, pitch: -27, heading: 30, buildingHeight: 25 },
+      { name: 'Cubbon Park', lat: 12.9763, lon: 77.5929, alt: 750, pitch: -35, heading: 0, buildingHeight: 15 },
+      { name: 'ISKCON Temple Bengaluru', lat: 13.0096, lon: 77.5511, alt: 650, pitch: -27, heading: 70, buildingHeight: 30 },
+      { name: 'Bangalore Palace Grounds', lat: 12.9980, lon: 77.5928, alt: 600, pitch: -30, heading: 180, buildingHeight: 20 },
+    ],
+  },
+  kolkata: {
+    name: 'Kolkata',
+    groundElevation: 9,
+    viewBounds: { southwest: { lat: 22.42, lng: 88.20 }, northeast: { lat: 22.72, lng: 88.52 } },
+    pois: [
+      { name: 'Victoria Memorial', lat: 22.5448, lon: 88.3426, alt: 600, pitch: -28, heading: 30, buildingHeight: 30 },
+      { name: 'Howrah Bridge', lat: 22.5851, lon: 88.3468, alt: 850, pitch: -24, heading: 100, buildingHeight: 45 },
+      { name: 'Indian Museum', lat: 22.5580, lon: 88.3515, alt: 450, pitch: -26, heading: 0, buildingHeight: 25 },
+      { name: 'St. Paul’s Cathedral', lat: 22.5444, lon: 88.3450, alt: 450, pitch: -25, heading: 135, buildingHeight: 30 },
+      { name: 'Eden Gardens', lat: 22.5646, lon: 88.3433, alt: 700, pitch: -32, heading: 220, buildingHeight: 25 },
+    ],
+  },
+  chennai: {
+    name: 'Chennai',
+    groundElevation: 6,
+    viewBounds: { southwest: { lat: 12.80, lng: 80.08 }, northeast: { lat: 13.30, lng: 80.35 } },
+    pois: [
+      { name: 'Marina Beach', lat: 13.0500, lon: 80.2824, alt: 900, pitch: -35, heading: 270, buildingHeight: 10 },
+      { name: 'Fort St. George', lat: 13.0807, lon: 80.2876, alt: 500, pitch: -27, heading: 165, buildingHeight: 20 },
+      { name: 'Kapaleeshwarar Temple', lat: 13.0339, lon: 80.2696, alt: 450, pitch: -25, heading: 30, buildingHeight: 25 },
+      { name: 'Chennai Central', lat: 13.0827, lon: 80.2756, alt: 550, pitch: -25, heading: 115, buildingHeight: 25 },
+      { name: 'Valluvar Kottam', lat: 13.0542, lon: 80.2410, alt: 450, pitch: -27, heading: 205, buildingHeight: 25 },
+    ],
+  },
   austin: {
     name: 'Austin',
     groundElevation: 150, // meters above WGS84 ellipsoid

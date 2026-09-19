@@ -3516,7 +3516,7 @@ function isVideoFeedType(feedType) {
 // CCTV proxy constants and source cache state
 // ---------------------------------------------------------------------------
 /** Path to the optional static CCTV source list (JSON array). */
-const DEFAULT_CCTV_SOURCE_FILE = 'config/cctv_sources.austin.json';
+const DEFAULT_CCTV_SOURCE_FILE = 'config/cctv_sources.india.json';
 /** Austin Open Data portal endpoint for traffic camera records. */
 const DEFAULT_AUSTIN_ROWS_URL = 'https://data.austintexas.gov/api/views/b4k4-adkb/rows.json?accessType=DOWNLOAD';
 /** Default cap on Austin cameras after distance-based prioritization. */
