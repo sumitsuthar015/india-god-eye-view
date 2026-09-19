@@ -28,12 +28,7 @@ The GIFs are promotional captures of God's Eye View. They include Google Photore
 
 ## Public README PNGs
 
-Bilawal Sidhu published the following PNGs in the existing public `bilawalsidhu/gods-eye-view` repository and authorized their continued inclusion and redistribution with this repository and its project documentation:
-
-- `youtube-popular-videos.png`
-- `open-source-survey.png`
-
-Source: [`assets/youtube-popular-videos.png`](https://github.com/bilawalsidhu/gods-eye-view/blob/7afb3beefb2dd39110ed117c8f06825e9ca2ada4/assets/youtube-popular-videos.png) and [`assets/open-source-survey.png`](https://github.com/bilawalsidhu/gods-eye-view/blob/7afb3beefb2dd39110ed117c8f06825e9ca2ada4/assets/open-source-survey.png) in public repository commit [`7afb3beefb2dd39110ed117c8f06825e9ca2ada4`](https://github.com/bilawalsidhu/gods-eye-view/commit/7afb3beefb2dd39110ed117c8f06825e9ca2ada4). The localized files preserve the source bytes unchanged.
+Bilawal Sidhu published the following PNGs in the existing public `sumitsuthar015/india-god-eye-view` repository and authorized their continued inclusion and redistribution with this repository and its project documentation:
 
 These files are not covered by the project's MIT License. No permission is granted for standalone reuse or modification. Commercial reuse outside this repository requires separate permission. No share-alike license applies.
 
